@@ -1,5 +1,6 @@
 # Customer Churn Prediction using Machine Learning
 
+![Customer Churn](images/customer_churn.png)
 
 ## 📖 Overview
 
@@ -29,7 +30,7 @@ Key column: `Churn` – indicates whether a customer has left (1) or stayed (0).
 
 ### Churn distribution:
 
-![Churn Pie Chart](https://i.imgur.com/placeholder.png)
+![Churn Pie Chart](images/churn_pie.png)
 
 > 4682 customers stayed, 948 customers left (~17% churn rate)
 
@@ -44,11 +45,11 @@ Key column: `Churn` – indicates whether a customer has left (1) or stayed (0).
 
 #### Tenure Distribution
 
-![Tenure Histogram](https://i.imgur.com/placeholder.png)
+![Tenure Histogram](images/tenure_hist.png)
 
 #### Gender vs Churn
 
-![Gender vs Churn](https://i.imgur.com/placeholder.png)
+![Gender vs Churn](images/gender_churn.png)
 
 ---
 
@@ -67,36 +68,31 @@ Key column: `Churn` – indicates whether a customer has left (1) or stayed (0).
 
 * Accuracy: 0.90
 * ROC Curve:
-
-![ROC LR](https://i.imgur.com/placeholder.png)
+  ![ROC LR](images/roc_lr.png)
 
 ### Support Vector Machine
 
 * Accuracy: 0.88
 * ROC Curve:
-
-![ROC SVM](https://i.imgur.com/placeholder.png)
+  ![ROC SVM](images/roc_svm.png)
 
 ### Decision Tree
 
 * Accuracy: 0.85
 * Feature importance visualized:
-
-![Decision Tree](https://i.imgur.com/placeholder.png)
+  ![Decision Tree](images/decision_tree.png)
 
 ### Random Forest
 
 * Accuracy: 0.91
 * Confusion Matrix:
-
-![Confusion Matrix RF](https://i.imgur.com/placeholder.png)
+  ![Confusion Matrix RF](images/confusion_matrix_rf.png)
 
 ### XGBoost
 
 * Accuracy: 0.92
 * Confusion Matrix:
-
-![Confusion Matrix XGB](https://i.imgur.com/placeholder.png)
+  ![Confusion Matrix XGB](images/confusion_matrix_xgb.png)
 
 ---
 
@@ -127,6 +123,16 @@ Customer-Churn-Prediction-ML/
 ├── 05-ML-14-Customer-churn.ipynb
 ├── data/
 │   └── E-Commerce-Dataset.xlsx
+├── images/
+│   ├── customer_churn.png
+│   ├── churn_pie.png
+│   ├── tenure_hist.png
+│   ├── gender_churn.png
+│   ├── roc_lr.png
+│   ├── roc_svm.png
+│   ├── decision_tree.png
+│   ├── confusion_matrix_rf.png
+│   └── confusion_matrix_xgb.png
 ├── README.md
 └── requirements.txt
 ```
