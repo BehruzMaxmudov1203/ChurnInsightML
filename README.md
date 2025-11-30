@@ -1,6 +1,5 @@
 # Customer Churn Prediction using Machine Learning
 
-![Customer Churn](https://i.imgur.com/5pXzCIu.png)
 
 ## 📖 Overview
 
